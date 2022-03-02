@@ -12,18 +12,7 @@ class cube:
         self.RL = ["G", "B"]
         self.DU = ["R", "O"]
 
-    # def rotate(self, face, prime):
-    #     if face == "r":
-    #         tempa = self.FB
-    #         tempb = self.UD
-            
-    #         self.FB = tempb
-    #         self.UD = tempa
-            
-    #         if prime:
-    #             self.FB = self.FB.reverse()
-    #             self.UD = self.UD.reverse()
-    #     elif face == ""
+
         
     def rotate(self, face, prime = False):
         if face == "l" or face == "d" or face == "b":
