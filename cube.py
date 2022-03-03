@@ -113,7 +113,7 @@ class cube:
 
 
 
-
+#up
 Cube = cube()
 temp = (Cube.getCube(2,2,0))
 print(temp.faces)
